@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Bella",
+  "version": "0.0.1",
+
+  "description": "A beautiful view for your new tab page everyday.",
+  "icons": {},
+  "author": "Robert Williams",
+  
+  "chrome_url_overrides" : {
+    "newtab": "newtab.html"
+  },
+  "permissions": [
+  	"http://192.168.1.2/",
+  	"http://10.7.100.91/",
+    "http://www.bing.com/",
+    "https://www.lds.org/",
+    "http://media.ldscdn.org/",
+    "storage"
+  ]
+}
